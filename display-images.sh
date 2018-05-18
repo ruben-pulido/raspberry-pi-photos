@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo fbi --autozoom --noverbose --vt 1 --timeout 1 -1 /home/pi/Pictures/*.jpeg
+sleep 12
+sudo fbi --autozoom --blend 1000 --noverbose --vt 1 --timeout 10 /home/pi/Pictures/*.jp*g
